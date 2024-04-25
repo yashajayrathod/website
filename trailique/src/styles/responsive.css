@@ -1,0 +1,84 @@
+/* Extra small screens (phones) */
+@media only screen and (max-width: 480px) {
+  .tq-t-20  {
+    top: 20px;
+  }
+  .tq-h-600 {
+    height: 600px;
+  }
+  .tq-h-400 {
+    height:400px;
+  }
+  .tq-t-40{
+    top:40px
+  }
+  /* Your custom CSS classes for extra small screens */
+}
+
+/* Small screens (landscape phones, smaller tablets) */
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+  .tq-t-20  {
+    top: 20px;
+  }
+  .tq-h-600 {
+    height: 600px;
+  }
+  .tq-h-400 {
+    height:400px;
+  }
+  .tq-t-40{
+    top:40px
+  }
+  /* Your custom CSS classes for small screens */
+}
+
+/* Medium screens (larger tablets) */
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .tq-t-20  {
+    top: 20px;
+  }
+  .tq-h-600 {
+    height: 600px;
+  }
+  .tq-h-400 {
+    height:400px;
+  }
+  .tq-t-40{
+    top:40px
+  }
+  /* Your custom CSS classes for medium screens */
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .tq-t-20  {
+    top: 20px;
+  }
+  .tq-h-600 {
+    height: 600px;
+  }
+  .tq-h-400 {
+    height:400px;
+  }
+  .tq-t-40{
+    top:40px
+  }
+  /* Your custom CSS classes for large screens */
+}
+
+/* Extra-large screens (large desktops) */
+@media only screen and (min-width: 1025px) {
+  .tq-t-20  {
+    top: 20px;
+  }
+  .tq-h-600 {
+    height: 600px;
+  }
+  .tq-h-400 {
+    height:400px;
+  }
+  .tq-t-40{
+    top:40px
+  }
+  /* Your custom CSS classes for extra-large screens */
+}
