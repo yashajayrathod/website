@@ -1,0 +1,37 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+* {
+    @apply box-border m-0 p-0;
+  }
+  .App {
+    @apply mx-0 my-8;
+  }
+  .card-container {
+    @apply flex justify-evenly;
+  }
+  .card {
+    @apply w-[200px];
+  }
+  .card-image-container {
+    @apply flex justify-center;
+  }
+  .card-image {
+    @apply h-[120px] w-[120px];
+  }
+  .card-text {
+    @apply text-center text-2xl font-[bold] p-2;
+  }
+  @media (max-width: 768px) {
+    .card {
+      @apply w-4/5  shrink-0 mx-4 my-0;
+    }
+    .card-container {
+      @apply inline-flex w-full overflow-x-scroll;
+    }
+  }
+  .selected {
+  border-bottom: 3px solid blue; /* Add blue color border to the bottom of the selected card */
+}
